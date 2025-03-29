@@ -1,0 +1,12 @@
+{
+  "biome.posapc.ancient_wastelands": "Ancient Wastelands",
+  "item.posapc.sand_powder": "Sand Powder",
+  "death.attack.ionizating": "%1$s was lossed all DNA",
+  "item.posapc.test_tube": "Test Tube",
+  "effect.posapc.radiation": "Radiation",
+  "item.posapc.test_tube_with_sand": "Test tube (Sand)",
+  "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
+  "item.posapc.test_tube_with_smelt_sand": "Test Tube With Smelt Sand",
+  "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe"
+}

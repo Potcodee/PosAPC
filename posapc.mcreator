@@ -1,0 +1,413 @@
+{
+  "mod_elements": [
+    {
+      "name": "AncientWastelands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/worldgen/biome/ancient_wastelands.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "Wastelands",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/world/dimension/WastelandsDimension.java",
+          "src/main/resources/data/posapc/dimension/wastelands.json",
+          "src/main/resources/data/posapc/dimension_type/wastelands.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "BackToHome",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ticking",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/BackToHomeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/RadiationMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "RadiationKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/RadiationKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "Ionizating",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ionizating",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/damage_type/ionizating.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiationPriNalozhieniiEffiekta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/RadiationPriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "SandPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/sand_powder.json",
+          "src/main/java/net/mcreator/posapc/item/SandPowderItem.java"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "OnBlockBreak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_block_break",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/OnBlockBreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "SandPowderToSand",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_powder_to_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/sand_powder_to_sand.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "TestTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/test_tube.json",
+          "src/main/java/net/mcreator/posapc/item/TestTubeItem.java"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "TestTubeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/test_tube_recipe.json"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "FurnaceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/furnace_recipe.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "SandstoneFSandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_f_sand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/sandstone_f_sand_recipe.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "CraftingTableFSands",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_f_sands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/crafting_table_f_sands.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "TestTubeWithSand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_with_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/test_tube_with_sand.json",
+          "src/main/java/net/mcreator/posapc/item/TestTubeWithSandItem.java"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "SandToTestTubeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_to_test_tube_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/sand_to_test_tube_recipe.json"
+        ]
+      },
+      "path": "~/test_tube/Filling"
+    },
+    {
+      "name": "UnfillTestTubeWithSand",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfill_test_tube_with_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/unfill_test_tube_with_sand.json"
+        ]
+      },
+      "path": "~/test_tube/Unfilling"
+    },
+    {
+      "name": "SandPowderPlus",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_powder_plus",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "SandsotnePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandsotne_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/SandsotnePickaxeItem.java",
+          "src/main/resources/assets/posapc/models/item/sandsotne_pickaxe.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "TestTubeWithSmeltSand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_with_smelt_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/TestTubeWithSmeltSandItem.java",
+          "src/main/resources/assets/posapc/models/item/test_tube_with_smelt_sand.json"
+        ]
+      },
+      "path": "~/test_tube"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SMOOTH_SANDSTONE",
+      "~Blocks.SANDSTONE#0",
+      "~Blocks.SAND#0"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:AncientWastelands"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SandsotnePickaxe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.posapc.ancient_wastelands": "Ancient Wastelands",
+      "item.posapc.sand_powder": "Sand Powder",
+      "death.attack.ionizating": "%1$s was lossed all DNA",
+      "item.posapc.test_tube": "Test Tube",
+      "effect.posapc.radiation": "Radiation",
+      "item.posapc.test_tube_with_sand": "Test tube (Sand)",
+      "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
+      "item.posapc.test_tube_with_smelt_sand": "Test Tube With Smelt Sand",
+      "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "test_tube",
+        "children": [
+          {
+            "name": "Filling",
+            "children": []
+          },
+          {
+            "name": "Unfilling",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "FirstStep",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "posapc",
+    "modName": "PosAPC",
+    "version": "1.0.0",
+    "author": "irink, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.posapc"
+  },
+  "mcreatorVersion": 202400451119
+}

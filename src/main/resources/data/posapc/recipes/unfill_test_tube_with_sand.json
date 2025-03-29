@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:test_tube_with_sand"
+    }
+  },
+  "result": {
+    "item": "posapc:test_tube",
+    "count": 1
+  }
+}

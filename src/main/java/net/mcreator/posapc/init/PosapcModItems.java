@@ -15,6 +15,7 @@ import net.mcreator.posapc.item.TestTubeWithSandItem;
 import net.mcreator.posapc.item.TestTubeItem;
 import net.mcreator.posapc.item.SandsotnePickaxeItem;
 import net.mcreator.posapc.item.SandPowderItem;
+import net.mcreator.posapc.item.MaybeyoullgetluckyItem;
 import net.mcreator.posapc.PosapcMod;
 
 public class PosapcModItems {
@@ -24,6 +25,7 @@ public class PosapcModItems {
 	public static final RegistryObject<Item> TEST_TUBE_WITH_SAND = REGISTRY.register("test_tube_with_sand", () -> new TestTubeWithSandItem());
 	public static final RegistryObject<Item> SANDSOTNE_PICKAXE = REGISTRY.register("sandsotne_pickaxe", () -> new SandsotnePickaxeItem());
 	public static final RegistryObject<Item> TEST_TUBE_WITH_SMELT_SAND = REGISTRY.register("test_tube_with_smelt_sand", () -> new TestTubeWithSmeltSandItem());
+	public static final RegistryObject<Item> MAYBEYOULLGETLUCKY = REGISTRY.register("maybeyoullgetlucky", () -> new MaybeyoullgetluckyItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

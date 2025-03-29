@@ -339,6 +339,79 @@
         ]
       },
       "path": "~/test_tube"
+    },
+    {
+      "name": "SmeltingSandTestTube",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_sand_test_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/smelting_sand_test_tube.json"
+        ]
+      },
+      "path": "~/test_tube/Filling"
+    },
+    {
+      "name": "SandStonePickaxeFSmeltSand",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_stone_pickaxe_f_smelt_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/sand_stone_pickaxe_f_smelt_sand.json"
+        ]
+      },
+      "path": "~/FirstStep"
+    },
+    {
+      "name": "Maybeyoullgetlucky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybeyoullgetlucky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/maybeyoullgetlucky.json",
+          "src/main/java/net/mcreator/posapc/item/MaybeyoullgetluckyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MaybeyoullgetluckyKazhdyiTikVInvientarie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybeyoullgetlucky_kazhdyi_tik_v_invientarie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/MaybeyoullgetluckyKazhdyiTikVInvientarieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maybeyoullgetluckyfsandpowder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybeyoullgetluckyfsandpowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/maybeyoullgetluckyfsandpowder.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -365,9 +438,10 @@
       "item.posapc.test_tube": "Test Tube",
       "effect.posapc.radiation": "Radiation",
       "item.posapc.test_tube_with_sand": "Test tube (Sand)",
+      "item.posapc.maybeyoullgetlucky": "Вдруг повезёт",
       "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
       "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
-      "item.posapc.test_tube_with_smelt_sand": "Test Tube With Smelt Sand",
+      "item.posapc.test_tube_with_smelt_sand": "Test Tube (Smelt Sand)",
       "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe"
     }
   },

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:sand_powder"
+    }
+  },
+  "result": {
+    "item": "posapc:maybeyoullgetlucky",
+    "count": 1
+  }
+}

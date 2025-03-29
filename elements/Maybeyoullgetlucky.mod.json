@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "test_tube_with_smelt_sand",
+    "texture": "sandpowder",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Test Tube (Smelt Sand)",
+    "name": "Вдруг повезёт",
     "rarity": "COMMON",
     "creativeTabs": [],
     "stackSize": 64,
@@ -16,7 +16,7 @@
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": "CUSTOM:TestTube"
+      "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
@@ -32,6 +32,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "MaybeyoullgetluckyKazhdyiTikVInvientarie"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

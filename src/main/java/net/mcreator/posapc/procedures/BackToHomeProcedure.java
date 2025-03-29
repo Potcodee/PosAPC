@@ -47,13 +47,6 @@ public class BackToHomeProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "execute in posapc:wastelands run tp @s ~ ~ ~");
 				}
 			}
-			{
-				Entity _ent = entity;
-				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "say 1");
-				}
-			}
 		}
 		if (ResourceKey.create(Registries.DIMENSION, new ResourceLocation("posapc:wastelands")) == (entity.level().dimension())) {
 			if (Blocks.WATER == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {

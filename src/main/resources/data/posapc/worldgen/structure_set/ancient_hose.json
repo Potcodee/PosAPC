@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "posapc:ancient_hose",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 4,
+    "salt": 1642850419
+  }
+}

@@ -179,8 +179,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/FirstStep"
+      }
     },
     {
       "name": "SandPowderToSand",
@@ -412,6 +411,348 @@
           "src/main/resources/data/posapc/recipes/maybeyoullgetluckyfsandpowder.json"
         ]
       }
+    },
+    {
+      "name": "CursedSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/cursed_cobblestone.json",
+          "src/main/resources/data/posapc/loot_tables/blocks/cursed_cobblestone.json",
+          "src/main/resources/assets/posapc/blockstates/cursed_cobblestone.json",
+          "src/main/java/net/mcreator/posapc/block/CursedSandstoneBlock.java",
+          "src/main/resources/assets/posapc/models/block/cursed_cobblestone.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "Radiation2",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/Radiation2MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiation3",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/Radiation3MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiation4",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/Radiation4MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiation5",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/Radiation5MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Radiation6",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/potion/Radiation6MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CoreBlockPriRazrushieniiBlokaOtVzryva",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_block_pri_razrushienii_bloka_ot_vzryva",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/CoreBlockPriRazrushieniiBlokaOtVzryvaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "CoreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/block/core_block.json",
+          "src/main/resources/assets/posapc/models/item/core_block.json",
+          "src/main/java/net/mcreator/posapc/block/CoreBlockBlock.java",
+          "src/main/resources/data/posapc/loot_tables/blocks/core_block.json",
+          "src/main/resources/assets/posapc/blockstates/core_block.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/grapchics_card.json",
+          "src/main/resources/assets/posapc/models/item/grapchics_card_2.json",
+          "src/main/resources/assets/posapc/models/item/grapchics_card_0.json",
+          "src/main/resources/assets/posapc/models/item/grapchics_card_1.json",
+          "src/main/java/net/mcreator/posapc/item/GrapchicsCardItem.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "Lens",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lens",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/LensItem.java",
+          "src/main/resources/assets/posapc/models/item/lens.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "AncientHose",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_hose",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/worldgen/template_pool/ancient_hose.json",
+          "src/main/resources/data/posapc/worldgen/structure_set/ancient_hose.json",
+          "src/main/resources/data/posapc/worldgen/structure/ancient_hose.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCardDopolnitielnaiaInformatsiia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card_dopolnitielnaia_informatsiia",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/GrapchicsCardDopolnitielnaiaInformatsiiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCardZnachieniieSvoistva",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card_znachieniie_svoistva",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/GrapchicsCardZnachieniieSvoistvaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "SandCobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/block/sand_cobblestone.json",
+          "src/main/resources/assets/posapc/models/item/sand_cobblestone.json",
+          "src/main/resources/data/posapc/loot_tables/blocks/sand_cobblestone.json",
+          "src/main/resources/assets/posapc/blockstates/sand_cobblestone.json",
+          "src/main/java/net/mcreator/posapc/block/SandCobblestoneBlock.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "SandCobblestoneFCursedSandstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_cobblestone_f_cursed_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/sand_cobblestone_f_cursed_sandstone.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCardTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/blockstates/grapchics_card_table.json",
+          "src/main/java/net/mcreator/posapc/block/entity/GrapchicsCardTableBlockEntity.java",
+          "src/main/resources/assets/posapc/models/item/grapchics_card_table.json",
+          "src/main/resources/data/posapc/loot_tables/blocks/grapchics_card_table.json",
+          "src/main/resources/assets/posapc/models/block/grapchics_card_table.json",
+          "src/main/java/net/mcreator/posapc/block/GrapchicsCardTableBlock.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCardTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/grapchics_card_table_recipe.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "RecorderSt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recorder_st",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/RecorderStProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "OnRecordPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_record_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/OnRecordPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicsCardGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchics_card_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/client/gui/GrapchicsCardGUIScreen.java",
+          "src/main/java/net/mcreator/posapc/world/inventory/GrapchicsCardGUIMenu.java",
+          "src/main/java/net/mcreator/posapc/network/GrapchicsCardGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/SecoundStep"
     }
   ],
   "variable_elements": [],
@@ -421,6 +762,9 @@
       "~Blocks.SMOOTH_SANDSTONE",
       "~Blocks.SANDSTONE#0",
       "~Blocks.SAND#0"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CursedSandstone"
     ],
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:AncientWastelands"
@@ -432,17 +776,30 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.posapc.lens": "Lens",
+      "item.posapc.grapchics_card": "Grapchics Card",
       "biome.posapc.ancient_wastelands": "Ancient Wastelands",
       "item.posapc.sand_powder": "Sand Powder",
-      "death.attack.ionizating": "%1$s was lossed all DNA",
-      "item.posapc.test_tube": "Test Tube",
-      "effect.posapc.radiation": "Radiation",
+      "gui.posapc.grapchics_card_gui.button_try_to_record": "Try to record",
+      "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
+      "block.posapc.core_block": "Core Block",
+      "gui.posapc.grapchics_card_gui.Recoder": "",
+      "block.posapc.sand_cobblestone": "Sand Cobblestone",
       "item.posapc.test_tube_with_sand": "Test tube (Sand)",
+      "item.posapc.test_tube_with_smelt_sand": "Test Tube (Smelt Sand)",
+      "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe",
+      "block.posapc.cursed_cobblestone": "Cursed cobblestone",
+      "death.attack.ionizating": "%1$s потерял все свои ДНК",
+      "effect.posapc.radiation": "Radiation",
       "item.posapc.maybeyoullgetlucky": "Вдруг повезёт",
       "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
-      "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
-      "item.posapc.test_tube_with_smelt_sand": "Test Tube (Smelt Sand)",
-      "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe"
+      "block.posapc.grapchics_card_table": "Grapchics Card Table",
+      "item.posapc.test_tube": "Пробирка",
+      "effect.posapc.radiation_3": "Radiation",
+      "effect.posapc.radiation_4": "Radiation",
+      "effect.posapc.radiation_5": "Radiation",
+      "effect.posapc.radiation_6": "Radiation",
+      "effect.posapc.radiation_2": "Radiation"
     }
   },
   "foldersRoot": {
@@ -463,6 +820,10 @@
       },
       {
         "name": "FirstStep",
+        "children": []
+      },
+      {
+        "name": "SecoundStep",
         "children": []
       }
     ]

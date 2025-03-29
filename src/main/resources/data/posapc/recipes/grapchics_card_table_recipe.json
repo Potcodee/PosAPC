@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:test_tube_with_smelt_sand"
+    },
+    "b": {
+      "item": "posapc:lens"
+    },
+    "c": {
+      "item": "posapc:sand_cobblestone"
+    },
+    "d": {
+      "item": "posapc:grapchics_card"
+    }
+  },
+  "result": {
+    "item": "posapc:grapchics_card_table",
+    "count": 1
+  }
+}

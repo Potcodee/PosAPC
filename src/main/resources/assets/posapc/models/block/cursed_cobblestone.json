@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "posapc:block/cursed_sandstone",
+    "up": "posapc:block/cursed_sandstone",
+    "north": "posapc:block/cursed_sandstone",
+    "east": "posapc:block/cursed_sandstone",
+    "south": "posapc:block/cursed_sandstone",
+    "west": "posapc:block/cursed_sandstone",
+    "particle": "posapc:block/cursed_sandstone"
+  },
+  "render_type": "solid"
+}

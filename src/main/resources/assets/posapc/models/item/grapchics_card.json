@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "posapc:item/undamaged_grapchic_card"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "posapc:grapchics_card_type": 1
+      },
+      "model": "posapc:item/grapchics_card_0"
+    },
+    {
+      "predicate": {
+        "posapc:grapchics_card_type": 2
+      },
+      "model": "posapc:item/grapchics_card_1"
+    },
+    {
+      "predicate": {
+        "posapc:grapchics_card_type": 3
+      },
+      "model": "posapc:item/grapchics_card_2"
+    }
+  ]
+}

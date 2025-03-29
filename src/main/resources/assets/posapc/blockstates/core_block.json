@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "posapc:block/core_block"
+    }
+  }
+}

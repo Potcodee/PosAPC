@@ -19,7 +19,10 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.posapc.init.PosapcModTabs;
 import net.mcreator.posapc.init.PosapcModMobEffects;
+import net.mcreator.posapc.init.PosapcModMenus;
 import net.mcreator.posapc.init.PosapcModItems;
+import net.mcreator.posapc.init.PosapcModBlocks;
+import net.mcreator.posapc.init.PosapcModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,11 +44,15 @@ public class PosapcMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		PosapcModBlocks.REGISTRY.register(bus);
+		PosapcModBlockEntities.REGISTRY.register(bus);
 		PosapcModItems.REGISTRY.register(bus);
 
 		PosapcModTabs.REGISTRY.register(bus);
 
 		PosapcModMobEffects.REGISTRY.register(bus);
+
+		PosapcModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

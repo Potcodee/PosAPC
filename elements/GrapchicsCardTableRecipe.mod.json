@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TestTubeWithSmeltSand"
+      },
+      {
+        "value": "CUSTOM:Lens"
+      },
+      {
+        "value": "CUSTOM:TestTubeWithSmeltSand"
+      },
+      {
+        "value": "CUSTOM:SandCobblestone"
+      },
+      {
+        "value": "CUSTOM:GrapchicsCard"
+      },
+      {
+        "value": "CUSTOM:SandCobblestone"
+      },
+      {
+        "value": "CUSTOM:SandCobblestone"
+      },
+      {
+        "value": "CUSTOM:SandCobblestone"
+      },
+      {
+        "value": "CUSTOM:SandCobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GrapchicsCardTable"
+    },
+    "name": "grapchics_card_table_recipe",
+    "namespace": "mod"
+  }
+}

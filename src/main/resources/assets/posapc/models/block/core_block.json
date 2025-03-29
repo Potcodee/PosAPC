@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "posapc:block/core",
+    "up": "posapc:block/core",
+    "north": "posapc:block/core",
+    "east": "posapc:block/core",
+    "south": "posapc:block/core",
+    "west": "posapc:block/core",
+    "particle": "posapc:block/core"
+  },
+  "render_type": "solid"
+}

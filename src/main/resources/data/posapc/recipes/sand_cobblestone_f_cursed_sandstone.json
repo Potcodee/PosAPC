@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:sand_powder"
+    },
+    "b": {
+      "item": "posapc:sand_cobblestone"
+    }
+  },
+  "result": {
+    "item": "posapc:sand_cobblestone",
+    "count": 1
+  }
+}

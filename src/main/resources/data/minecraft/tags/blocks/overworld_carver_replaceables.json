@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:smooth_sandstone",
     "minecraft:sandstone",
-    "minecraft:smooth_sandstone"
+    "minecraft:sand"
   ]
 }

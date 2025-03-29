@@ -21,9 +21,9 @@
       "registry_name": "wastelands",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/posapc/world/dimension/WastelandsDimension.java",
           "src/main/resources/data/posapc/dimension/wastelands.json",
-          "src/main/resources/data/posapc/dimension_type/wastelands.json"
+          "src/main/resources/data/posapc/dimension_type/wastelands.json",
+          "src/main/java/net/mcreator/posapc/world/dimension/WastelandsDimension.java"
         ]
       },
       "path": "~/FirstStep"
@@ -137,8 +137,8 @@
       "registry_name": "sand_powder",
       "metadata": {
         "files": [
-          "src/main/resources/assets/posapc/models/item/sand_powder.json",
-          "src/main/java/net/mcreator/posapc/item/SandPowderItem.java"
+          "src/main/java/net/mcreator/posapc/item/SandPowderItem.java",
+          "src/main/resources/assets/posapc/models/item/sand_powder.json"
         ]
       },
       "path": "~/FirstStep"
@@ -320,8 +320,8 @@
       "registry_name": "sandsotne_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/posapc/item/SandsotnePickaxeItem.java",
-          "src/main/resources/assets/posapc/models/item/sandsotne_pickaxe.json"
+          "src/main/resources/assets/posapc/models/item/sandsotne_pickaxe.json",
+          "src/main/java/net/mcreator/posapc/item/SandsotnePickaxeItem.java"
         ]
       },
       "path": "~/FirstStep"
@@ -334,8 +334,8 @@
       "registry_name": "test_tube_with_smelt_sand",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/posapc/item/TestTubeWithSmeltSandItem.java",
-          "src/main/resources/assets/posapc/models/item/test_tube_with_smelt_sand.json"
+          "src/main/resources/assets/posapc/models/item/test_tube_with_smelt_sand.json",
+          "src/main/java/net/mcreator/posapc/item/TestTubeWithSmeltSandItem.java"
         ]
       },
       "path": "~/test_tube"
@@ -374,8 +374,8 @@
       "registry_name": "maybeyoullgetlucky",
       "metadata": {
         "files": [
-          "src/main/resources/assets/posapc/models/item/maybeyoullgetlucky.json",
-          "src/main/java/net/mcreator/posapc/item/MaybeyoullgetluckyItem.java"
+          "src/main/java/net/mcreator/posapc/item/MaybeyoullgetluckyItem.java",
+          "src/main/resources/assets/posapc/models/item/maybeyoullgetlucky.json"
         ]
       }
     },
@@ -418,9 +418,8 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SMOOTH_SANDSTONE",
       "~Blocks.SANDSTONE#0",
-      "~Blocks.SAND#0"
+      "~Blocks.SMOOTH_SANDSTONE"
     ],
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:AncientWastelands"
@@ -483,5 +482,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.posapc"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202400452410
 }

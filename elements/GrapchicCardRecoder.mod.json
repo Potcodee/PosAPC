@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "grapchic_card_recoder.png",
+    "width": 175,
+    "height": 82,
+    "icon": {
+      "value": "CUSTOM:GrapchicsCardTable"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:GrapchicsCardTable"
+      }
+    ],
+    "enableCraftingtable": true,
+    "title": "Grapchic Card Recoder",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 16,
+        "y": 26,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 26,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 16,
+        "y": 53,
+        "slotid": 0
+      }
+    ]
+  }
+}

@@ -62,7 +62,11 @@
     ],
     "name": "Grapchics Card",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:PosAPC"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

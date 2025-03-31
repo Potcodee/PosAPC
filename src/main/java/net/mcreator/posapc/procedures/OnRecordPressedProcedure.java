@@ -16,15 +16,12 @@ public class OnRecordPressedProcedure {
 	public static void execute(Entity entity, HashMap guistate) {
 		if (entity == null || guistate == null)
 			return;
-		if (PosapcModItems.GRAPCHICS_CARD.get() == (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem()
-				&& 3 == (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("tagName")) {
-			if (("Reboot; Reinstall;").equals(guistate.containsKey("text:Recorder") ? ((EditBox) guistate.get("text:Recorder")).getValue() : "")) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(PosapcModItems.GRAPCHICS_CARD.get()).copy();
-					_setstack.setCount(1);
-					((Slot) _slots.get(1)).set(_setstack);
-					_player.containerMenu.broadcastChanges();
-				}
+		if (("Reboot; Reinstall;").equals(guistate.containsKey("text:Recoder") ? ((EditBox) guistate.get("text:Recoder")).getValue() : "")) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(PosapcModItems.GRAPCHICS_CARD.get()).copy();
+				_setstack.setCount(1);
+				((Slot) _slots.get(1)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
 			}
 		}
 	}

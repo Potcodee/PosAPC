@@ -42,7 +42,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:PosAPC"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -104,8 +108,8 @@
     "hasInventory": true,
     "guiBoundTo": "GrapchicsCardGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 2,
-    "inventoryStackSize": 64,
+    "inventorySize": 3,
+    "inventoryStackSize": 1,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],

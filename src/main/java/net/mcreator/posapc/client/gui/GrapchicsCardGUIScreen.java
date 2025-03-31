@@ -100,7 +100,7 @@ public class GrapchicsCardGUIScreen extends AbstractContainerScreen<GrapchicsCar
 				PosapcMod.PACKET_HANDLER.sendToServer(new GrapchicsCardGUIButtonMessage(0, x, y, z));
 				GrapchicsCardGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 42, this.topPos + 25, 92, 20).build();
+		}).bounds(this.leftPos + 69, this.topPos + 25, 92, 20).build();
 		guistate.put("button:button_try_to_record", button_try_to_record);
 		this.addRenderableWidget(button_try_to_record);
 	}

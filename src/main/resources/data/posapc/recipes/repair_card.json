@@ -1,0 +1,15 @@
+{
+  "type": "posapc:grapchic_card_recoder",
+  "ingredients": [
+    {
+      "item": "posapc:grapchics_card"
+    },
+    {
+      "item": "posapc:test_tube_with_sand"
+    }
+  ],
+  "output": {
+    "item": "posapc:grapchics_card",
+    "count": 1
+  }
+}

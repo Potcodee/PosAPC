@@ -21,6 +21,12 @@ authors="irink, MCreator"
     side="BOTH"
 
 
+[[dependencies.posapc]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

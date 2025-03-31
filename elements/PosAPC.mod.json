@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Pos APC",
+    "icon": {
+      "value": "CUSTOM:SandCobblestone"
+    },
+    "showSearch": false
+  }
+}

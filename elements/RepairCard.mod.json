@@ -1,0 +1,19 @@
+{
+  "_fv": 73,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "grapchic_card_recoder",
+    "result": {
+      "value": "CUSTOM:GrapchicsCard"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:GrapchicsCard"
+      },
+      {
+        "value": "CUSTOM:TestTubeWithSand"
+      }
+    ]
+  }
+}

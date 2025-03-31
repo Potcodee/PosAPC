@@ -753,15 +753,51 @@
         ]
       },
       "path": "~/SecoundStep"
+    },
+    {
+      "name": "GrapchicCardRecoder",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapchic_card_recoder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/jei_recipes/GrapchicCardRecoderRecipe.java",
+          "src/main/java/net/mcreator/posapc/jei_recipes/GrapchicCardRecoderRecipeCategory.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "RepairCard",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repair_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/repair_card.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "PosAPC",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pos_apc",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SMOOTH_SANDSTONE",
       "~Blocks.SANDSTONE#0",
-      "~Blocks.SAND#0"
+      "~Blocks.SMOOTH_SANDSTONE"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:CursedSandstone"
@@ -776,8 +812,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.posapc.lens": "Lens",
       "item.posapc.grapchics_card": "Grapchics Card",
+      "item.posapc.lens": "Lens",
       "biome.posapc.ancient_wastelands": "Ancient Wastelands",
       "item.posapc.sand_powder": "Sand Powder",
       "gui.posapc.grapchics_card_gui.button_try_to_record": "Try to record",
@@ -787,14 +823,15 @@
       "block.posapc.sand_cobblestone": "Sand Cobblestone",
       "item.posapc.test_tube_with_sand": "Test tube (Sand)",
       "item.posapc.test_tube_with_smelt_sand": "Test Tube (Smelt Sand)",
+      "item_group.posapc.pos_apc": "Pos APC",
       "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe",
       "block.posapc.cursed_cobblestone": "Cursed cobblestone",
-      "death.attack.ionizating": "%1$s потерял все свои ДНК",
+      "death.attack.ionizating": "%1$s was lossed all DNA",
       "effect.posapc.radiation": "Radiation",
       "item.posapc.maybeyoullgetlucky": "Вдруг повезёт",
       "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
       "block.posapc.grapchics_card_table": "Grapchics Card Table",
-      "item.posapc.test_tube": "Пробирка",
+      "item.posapc.test_tube": "Test Tube",
       "effect.posapc.radiation_3": "Radiation",
       "effect.posapc.radiation_4": "Radiation",
       "effect.posapc.radiation_5": "Radiation",
@@ -839,7 +876,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.posapc"

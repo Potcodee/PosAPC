@@ -64,7 +64,7 @@ public class GrapchicsCardGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			OnRecordPressedProcedure.execute(entity, guistate);
+			OnRecordPressedProcedure.execute(world, entity, guistate);
 		}
 	}
 

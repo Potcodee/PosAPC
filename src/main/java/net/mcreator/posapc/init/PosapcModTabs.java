@@ -26,5 +26,20 @@ public class PosapcModTabs {
 				tabData.accept(PosapcModItems.LENS.get());
 				tabData.accept(PosapcModBlocks.SAND_COBBLESTONE.get().asItem());
 				tabData.accept(PosapcModBlocks.GRAPCHICS_CARD_TABLE.get().asItem());
+				tabData.accept(PosapcModItems.SOLDERING_CASE.get());
+				tabData.accept(PosapcModItems.MELTED_PLASTIC.get());
+				tabData.accept(PosapcModItems.ANTIDOT.get());
+				tabData.accept(PosapcModItems.EMPTYINKECTOR.get());
+				tabData.accept(PosapcModItems.MELTED_PLASTIC_WITH_LENS.get());
+				tabData.accept(PosapcModItems.LEADPOWDER.get());
 			}).build());
+	public static final RegistryObject<CreativeModeTab> TEST_TUBES = REGISTRY.register("test_tubes",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.posapc.test_tubes")).icon(() -> new ItemStack(PosapcModItems.TEST_TUBE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(PosapcModItems.TEST_TUBE.get());
+				tabData.accept(PosapcModItems.TEST_TUBE_WITH_SAND.get());
+				tabData.accept(PosapcModItems.TEST_TUBE_WITH_SMELT_SAND.get());
+				tabData.accept(PosapcModItems.TEST_TUBE_WITH_MELTED_PLASTIC.get());
+				tabData.accept(PosapcModItems.TEST_TUBE_WITH_HOT_MELTED_PLASTIC.get());
+				tabData.accept(PosapcModItems.TESTTUBEWITHRADIATIONWATER.get());
+			}).withTabsBefore(POS_APC.getId()).build());
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:test_tube_with_hot_melted_plastic"
+    },
+    "b": {
+      "item": "posapc:grapchics_card"
+    },
+    "c": {
+      "item": "posapc:lens"
+    },
+    "d": {
+      "item": "posapc:sand_powder"
+    }
+  },
+  "result": {
+    "item": "posapc:soldering_case",
+    "count": 1
+  }
+}

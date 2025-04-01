@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Test Tubes",
+    "icon": {
+      "value": "CUSTOM:TestTube"
+    },
+    "showSearch": false
+  }
+}

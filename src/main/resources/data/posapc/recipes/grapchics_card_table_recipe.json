@@ -8,10 +8,10 @@
   ],
   "key": {
     "a": {
-      "item": "posapc:test_tube_with_smelt_sand"
+      "item": "posapc:test_tube_with_hot_melted_plastic"
     },
     "b": {
-      "item": "posapc:lens"
+      "item": "posapc:melted_plastic_with_lens"
     },
     "c": {
       "item": "posapc:sand_cobblestone"

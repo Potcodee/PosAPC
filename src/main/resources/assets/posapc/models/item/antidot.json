@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "posapc:item/antidot"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "posapc:antidot_radiation": 1
+      },
+      "model": "posapc:item/antidot_0"
+    }
+  ]
+}

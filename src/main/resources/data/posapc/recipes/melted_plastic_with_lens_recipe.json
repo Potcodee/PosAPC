@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:lens"
+    },
+    "b": {
+      "item": "posapc:test_tube_with_hot_melted_plastic"
+    },
+    "c": {
+      "item": "posapc:melted_plastic"
+    }
+  },
+  "result": {
+    "item": "posapc:melted_plastic_with_lens",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
+      },
+      {
+        "value": "CUSTOM:GrapchicsCard"
+      },
+      {
+        "value": "CUSTOM:Lens"
+      },
+      {
+        "value": "CUSTOM:SandPowder"
+      },
+      {
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
+      },
+      {
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
+      },
+      {
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SolderingCase"
+    },
+    "name": "soldering_case_recipe",
+    "namespace": "mod"
+  }
+}

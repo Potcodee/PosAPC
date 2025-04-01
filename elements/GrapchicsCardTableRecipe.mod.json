@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:TestTubeWithSmeltSand"
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
       },
       {
-        "value": "CUSTOM:Lens"
+        "value": "CUSTOM:MeltedPlasticWithLens"
       },
       {
-        "value": "CUSTOM:TestTubeWithSmeltSand"
+        "value": "CUSTOM:TestTubeWithHotMeltedPlastic"
       },
       {
         "value": "CUSTOM:SandCobblestone"

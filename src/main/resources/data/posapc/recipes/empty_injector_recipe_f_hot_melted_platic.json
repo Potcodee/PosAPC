@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "posapc:melted_plastic"
+    },
+    "b": {
+      "item": "posapc:test_tube_with_hot_melted_plastic"
+    }
+  },
+  "result": {
+    "item": "posapc:emptyinkector",
+    "count": 1
+  }
+}

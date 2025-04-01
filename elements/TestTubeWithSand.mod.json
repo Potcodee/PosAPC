@@ -9,7 +9,11 @@
     "states": [],
     "name": "Test tube (Sand)",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TestTubes"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

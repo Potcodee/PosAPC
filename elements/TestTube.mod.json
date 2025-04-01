@@ -9,7 +9,11 @@
     "states": [],
     "name": "Test Tube",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TestTubes"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -32,6 +36,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onDroppedByPlayer": {
+      "name": "TestTubeKoghdaPriedmietVybroshienIghrokom"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

@@ -734,6 +734,10 @@
           {
             "name": "guistate",
             "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -790,9 +794,356 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "SolderingCase",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soldering_case",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/SolderingCaseItem.java",
+          "src/main/resources/assets/posapc/models/item/soldering_case.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "SolderingCaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soldering_case_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/soldering_case_recipe.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "MeltedPlastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/MeltedPlasticItem.java",
+          "src/main/resources/assets/posapc/models/item/melted_plastic.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "MeltedPlasticFGracphicCard",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic_f_gracphic_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/melted_plastic_f_gracphic_card.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "TestTubes",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tubes",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "TestTubeWithMeltedPlastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_with_melted_plastic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/test_tube_with_melted_plastic.json",
+          "src/main/java/net/mcreator/posapc/item/TestTubeWithMeltedPlasticItem.java"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "MeltedPlasticToTestTube",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic_to_test_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/melted_plastic_to_test_tube.json"
+        ]
+      },
+      "path": "~/test_tube/Filling"
+    },
+    {
+      "name": "TestTubeWithHotMeltedPlastic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_with_hot_melted_plastic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/TestTubeWithHotMeltedPlasticItem.java",
+          "src/main/resources/assets/posapc/models/item/test_tube_with_hot_melted_plastic.json"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "UnfillTestTubeWithMeltedPlastic",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfill_test_tube_with_melted_plastic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/unfill_test_tube_with_melted_plastic.json"
+        ]
+      },
+      "path": "~/test_tube/Unfilling"
+    },
+    {
+      "name": "SmeltingMeltedPlasticTestTubeToHotMeltedPlasticTestTube",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_melted_plastic_test_tube_to_hot_melted_plastic_test_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/smelting_melted_plastic_test_tube_to_hot_melted_plastic.json"
+        ]
+      },
+      "path": "~/test_tube/Filling"
+    },
+    {
+      "name": "AntidotPriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidot_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/AntidotPriZaviershieniiIspolzovaniiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "Antidot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/antidot.json",
+          "src/main/resources/assets/posapc/models/item/antidot_0.json",
+          "src/main/java/net/mcreator/posapc/item/AntidotItem.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "Emptyinkector",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptyinkector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/EmptyinkectorItem.java",
+          "src/main/resources/assets/posapc/models/item/emptyinkector.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "OnPlayerDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/OnPlayerDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestTubeKoghdaPriedmietVybroshienIghrokom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_tube_koghda_priedmiet_vybroshien_ighrokom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/TestTubeKoghdaPriedmietVybroshienIghrokomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "EmptyInjectorRecipeFHotMeltedPlatic",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_injector_recipe_f_hot_melted_platic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/empty_injector_recipe_f_hot_melted_platic.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "MeltedPlasticWithLens",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic_with_lens",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/melted_plastic_with_lens.json",
+          "src/main/java/net/mcreator/posapc/item/MeltedPlasticWithLensItem.java"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "MeltedPlasticWithLensRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_plastic_with_lens_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/melted_plastic_with_lens_recipe.json"
+        ]
+      },
+      "path": "~/SecoundStep"
+    },
+    {
+      "name": "Testtubewithradiationwater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testtubewithradiationwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/TesttubewithradiationwaterItem.java",
+          "src/main/resources/assets/posapc/models/item/testtubewithradiationwater.json"
+        ]
+      },
+      "path": "~/test_tube"
+    },
+    {
+      "name": "WaterToTestTube",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_to_test_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/posapc/recipes/water_to_test_tube.json"
+        ]
+      },
+      "path": "~/test_tube/Filling"
+    },
+    {
+      "name": "Leadpowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadpowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/posapc/models/item/leadpowder.json",
+          "src/main/java/net/mcreator/posapc/item/LeadpowderItem.java"
+        ]
+      },
+      "path": "~/ThirdStep"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/posapc/item/LeadIngotItem.java",
+          "src/main/resources/assets/posapc/models/item/lead_ingot.json"
+        ]
+      },
+      "path": "~/ThirdStep"
+    },
+    {
+      "name": "AntidotZnachieniieSvoistva",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidot_znachieniie_svoistva",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/posapc/procedures/AntidotZnachieniieSvoistvaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SecoundStep"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "stage",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -818,21 +1169,32 @@
       "item.posapc.sand_powder": "Sand Powder",
       "gui.posapc.grapchics_card_gui.button_try_to_record": "Try to record",
       "death.attack.ionizating.item": "%1$s was killed by %2$s using %3$s",
+      "item.posapc.melted_plastic": "Melted Plastic",
       "block.posapc.core_block": "Core Block",
       "gui.posapc.grapchics_card_gui.Recoder": "",
       "block.posapc.sand_cobblestone": "Sand Cobblestone",
+      "item.posapc.leadpowder": "Lead powder",
       "item.posapc.test_tube_with_sand": "Test tube (Sand)",
+      "item.posapc.testtubewithradiationwater": "Test tube (radiation water)",
+      "item.posapc.emptyinkector": "Empty injector",
+      "item.posapc.lead_ingot": "Lead Ingot",
       "item.posapc.test_tube_with_smelt_sand": "Test Tube (Smelt Sand)",
       "item_group.posapc.pos_apc": "Pos APC",
+      "item.posapc.antidot": "Antidot",
       "item.posapc.sandsotne_pickaxe": "Sandsotne Pickaxe",
+      "item.posapc.test_tube_with_hot_melted_plastic": "Test Tube (Hot Melted Plastic)",
       "block.posapc.cursed_cobblestone": "Cursed cobblestone",
       "death.attack.ionizating": "%1$s was lossed all DNA",
       "effect.posapc.radiation": "Radiation",
       "item.posapc.maybeyoullgetlucky": "Вдруг повезёт",
       "death.attack.ionizating.player": "%1$s died whilst trying to escape %2$s",
+      "item.posapc.melted_plastic_with_lens": "Melted plastic with lens",
+      "item.posapc.test_tube_with_melted_plastic": "Test Tube (Melted Plastic)",
+      "item_group.posapc.test_tubes": "Test Tubes",
       "block.posapc.grapchics_card_table": "Grapchics Card Table",
       "item.posapc.test_tube": "Test Tube",
       "effect.posapc.radiation_3": "Radiation",
+      "item.posapc.soldering_case": "Soldering Case",
       "effect.posapc.radiation_4": "Radiation",
       "effect.posapc.radiation_5": "Radiation",
       "effect.posapc.radiation_6": "Radiation",
@@ -861,6 +1223,10 @@
       },
       {
         "name": "SecoundStep",
+        "children": []
+      },
+      {
+        "name": "ThirdStep",
         "children": []
       }
     ]

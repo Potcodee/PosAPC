@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TestTube"
+      "value": "CUSTOM:SandPowder"
     },
     "name": "unfill_test_tube_with_sand",
     "namespace": "mod"

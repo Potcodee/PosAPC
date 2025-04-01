@@ -3,9 +3,9 @@
   "textures": {
     "down": "posapc:block/sand_cobblestone",
     "up": "posapc:block/sand_cobblestone_with_lens",
-    "north": "posapc:block/dev",
+    "north": "posapc:block/sand_cobblestone",
     "east": "posapc:block/sand_cobblestone",
-    "south": "posapc:block/dev",
+    "south": "posapc:block/sand_cobblestone",
     "west": "posapc:block/sand_cobblestone",
     "particle": "posapc:block/sand_cobblestone"
   },

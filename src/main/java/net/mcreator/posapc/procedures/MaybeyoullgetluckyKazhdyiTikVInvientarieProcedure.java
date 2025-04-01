@@ -16,18 +16,23 @@ public class MaybeyoullgetluckyKazhdyiTikVInvientarieProcedure {
 		if (entity == null)
 			return;
 		double randomint = 0;
-		randomint = Mth.nextInt(RandomSource.create(), 1, 4);
+		randomint = Mth.nextInt(RandomSource.create(), 1, 9);
 		if (1 == randomint) {
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(Items.STICK).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
-		}
-		if (2 == randomint) {
+		} else if (2 == randomint) {
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(PosapcModItems.SAND_POWDER.get()).copy();
 				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+		} else if (3 == randomint) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(PosapcModItems.LEADPOWDER.get()).copy();
+				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 		}
